@@ -24,60 +24,81 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 30px;
 }
-.container {
-  margin-left: auto;
-  margin-right: auto;
+/* .container {
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* Small */
+/* @media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+} */
+/* Medium */
+/* @media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+} */
+/* Large */
+/* @media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  } */
+/* }.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+/* Small */
+/* @media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+} */
+/* Medium */
+/* @media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+} */
+/* Large */
+/* @media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+} */
+/* end of global values */
+/*
+  whatever
+*/
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* small screens */
+/* Small */
 @media (min-width: 768px) {
   .container {
-    width: 100%px;
+    width: 750px;
   }
 }
-/* medium screens */
+/* Medium */
 @media (min-width: 992px) {
   .container {
-    width: 950px;
+    width: 970px;
   }
 }
-
-/* large screens */
+/* Large */
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
   }
 }
-/* that's for special heading in the mobile screens */
-@media (min-width: 767px) {
-  .special-heading {
-    font-size: 60px;
-  }
-  .special-heading + p {
-    margin-top: -20px;
-  }
-}
-/* that's for services in the small screens */
-@media (max-width: 767px) {
-  .services .services-content .srv {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-/* that for making the photo invisible */
-@media (max-width: 1199px) {
-  .img-col {
-    display: none;
-  }
-}
-/* that's for small screens */
-@media (max-width: 767px) {
-  .container {
-    width: 100%;
-  }
-}
-/* end of global values */
 /* start components */
 .special-heading {
   color: var(--heading-color);
